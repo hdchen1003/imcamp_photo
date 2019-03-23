@@ -1,0 +1,148 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    vertical-align: baseline;
+    font-family: Microsoft JhengHei;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+.wrap{
+    margin: 0 auto;
+    width: 1200px
+}
+.header{
+    width: 1200px;
+    height: 50px;
+}
+.icon{
+    width: 120px;
+    height: 36px;
+    float: left;
+}
+.icon button{
+    width: 120px;
+    height: 36px;
+}
+.teams{
+    width: 1080px;
+    float: left;
+}
+.team li{
+    float: left;
+    width: 180px;
+}
+.team li a {
+    background: #DBE9B7;
+    color: #33313B;
+    text-align: center;
+    display: block;
+    padding: 10px 0;
+  text-decoration: none;
+}
+.team li a:hover {
+    background:#B8B2A6;
+    color: black;
+   
+}
+.content{
+    background: #FDFDF6;
+}
+.little_img{
+    width: 489px;
+    float: left;
+}
+.img96{
+    float: left;
+    
+}
+.img96 img{
+    width: 160px;
+    height: 160px;
+}
+.text{
+    float: left;
+    width: 280px;  
+    padding: 7px;
+    padding-left: 30px;
+}
+.text h2{
+    font-size: 200%;
+}
+.text .t{
+    padding-top: 5px;
+}
+.big_img{
+    float: left;
+}
+.big_img img{
+    width: 640px;
+    height: 360px;
+}
+.content2 .little_img .p1{
+    float: right;
+}
+.content2 .little_img .p2{
+    float: right;
+}
+.content1,.content2,.content3{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.footer{
+    width: 100%;
+    height: 50px;
+    background: #F4DADA;
+}
+ .imcamp{
+    text-align:center;
+    line-height:50px;
+}
+.clear{
+    clear: both;
+}
+
+
